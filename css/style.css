@@ -1,0 +1,180 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,800);
+
+html, body { margin: 0; }
+
+:focus { outline: none; }
+::-webkit-input-placeholder { color: #DEDFDF; }
+::-moz-placeholder { color: #DEDFDF; }
+:-moz-placeholder { color: #DEDFDF; }
+::-ms-input-placeholder { color: #DEDFDF; }
+
+
+body {
+    background: #6ED0F6;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+form {
+    width: 450px;
+    height: 370px;
+}
+button {
+    width: 450px;
+    background: #079BCF;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-size: 27px;
+    height: 72px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background: #007BA5;
+}
+
+.main__forms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.form_input {
+    background: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 27px;
+    font-family: 'Raleway', sans-serif;
+    height: 72px;
+    width: 99.5%;
+    margin-bottom: 10px;
+    opacity: 1;
+    text-indent: 20px;
+}
+
+.sign__form {
+    margin: 0 20px;
+}
+
+
+.title {
+    font-size: 33px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.hello__user {
+    position: absolute;
+    top: 50%;
+    margin-left: 700px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.container {
+    width: 1500px;
+    margin: 0 50px;
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header__content p {
+    margin-right: 15px;
+}
+
+.header__content a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #6ED0F6;
+    width: 50px;
+    height: 30px;
+    background: white;
+    border-radius: 15px;
+    transition: all .2s linear;
+}
+
+.header__content a:hover {
+    background: #6ED0F6;
+    color: white;
+}
+
+.main__form, .main__content {
+    display: flex;
+    justify-content: center;
+}
+
+.main__form button {
+    width: 675px;
+}
+
+#massage {
+    resize: none;
+    width: 650px;
+    height: 80px;
+    border-radius: 10px;
+    padding: 10px 12px;
+    background-image: none;
+    border: none;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.news__content {
+    display: flex;
+    align-items: center;
+}
+
+.news__user {
+    font-size: 22px;
+    margin: 15px 30px 15px 0;
+}
+
+.like {
+    width: 70px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.like:hover {
+    background: transparent;
+}
+
+.plus {
+    width: 45px;
+    height: 45px;
+}
+
+.add__post__form {
+    height: 210px;
+}
+
+.feedback form {
+    width: auto;
+    height: auto;
+}
+
+.main__content {
+    margin-left: 400px;
+}
+.news__text {
+    width: 700px;
+}
+
+.feedback {
+    width: 100px;
+}
